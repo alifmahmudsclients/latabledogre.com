@@ -12,7 +12,7 @@ document.getElementsByTagName("head")[0].appendChild(link);
 var link=document.createElement("link");
 link.type="text/css";
 link.rel="stylesheet";
-link.href="https://cdn.jsdelivr.net/gh/alifmahmudsclients/latabledogre.com@7d8316cd1e44ed121a6bca557f69fa71d3edbeac/mystyle.css";
+link.href="https://cdn.jsdelivr.net/gh/alifmahmudsclients/latabledogre.com@71780ad7ed5e1c64b90ff21d7a852c20b3a5929f/mystyle.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
 
