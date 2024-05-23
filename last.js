@@ -1,290 +1,407 @@
+
+/*
+
+Functional
+Preferences
+Analytics
+Marketing
+
+ */
 var matchedCookies = [
-    {
-        "id": "fbp",
-        "platform": "Facebook",
-        "category": "Marketing",
-        "data_key": "_fbp",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door Facebook om een reeks advertentieproducten te leveren zoals realtime bieden van derden adverteerders.",
-        "retention_period": "3 maanden",
-        "data_controller": "Facebook",
-        "privacy_rights_portals": "https://www.facebook.com/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "fbc",
+        {
+            "id": "ADS_VISITOR_ID",
+            "platform": "Google",
+            "category": "Marketing",
+            "data_key": "ADS_VISITOR_ID",
+            "domain": ".google.com",
+            "description": "Un cookie utilisé pour identifier et suivre les visiteurs à des fins publicitaires.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "AEC",
+            "platform": "Google",
+            "category": "Marketing",
+            "data_key": "AEC",
+            "domain": ".google.com",
+            "description": "Un cookie utilisé pour s'assurer que les demandes dans une session de navigation sont faites par l'utilisateur et non par d'autres sites.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "APISID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "APISID",
+            "domain": ".google.com",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "APISID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "APISID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "DV",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "DV",
+            "domain": "www.google.com",
+            "description": "Utilisé par Google pour diffuser et personnaliser les publicités.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "HSID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "HSID",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "HSID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "HSID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "IDE",
+            "platform": "Google",
+            "category": "Marketing",
+            "data_key": "IDE",
+            "domain": ".doubleclick.net",
+            "description": "Utilisé par Google DoubleClick pour enregistrer et rapporter les actions de l'utilisateur du site Web après avoir visionné ou cliqué sur l'une des annonces de l'annonceur dans le but de mesurer l'efficacité d'une annonce et de présenter des annonces ciblées à l'utilisateur.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "NID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "NID",
+            "domain": ".google.com",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "NID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "NID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "S",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "S",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité.",
+            "retention_period": "Session",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SAPISID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SAPISID",
+            "domain": ".google.com",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SAPISID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SAPISID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé par Google pour stocker les préférences des utilisateurs et des informations lors de la visualisation des pages avec des cartes Google.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SEARCH_SAMESITE",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SEARCH_SAMESITE",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité pour s'assurer que les demandes dans une session de navigation sont faites par l'utilisateur et non par d'autres sites.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SID",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SIDCC",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SIDCC",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SOCS",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SOCS",
+            "domain": "www.google.com",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "6 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SSID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SSID",
+            "domain": ".google.com",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "SSID",
+            "platform": "Google",
+            "category": "Functional",
+            "data_key": "SSID",
+            "domain": ".google.com.bd",
+            "description": "Utilisé à des fins de sécurité pour stocker des enregistrements signés numériquement et cryptés de l'identifiant du compte Google d'un utilisateur et de la dernière heure de connexion.",
+            "retention_period": "1 an",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_fbp",
+            "platform": "Facebook",
+            "category": "Marketing",
+            "data_key": "_fbp",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé par Facebook pour diffuser une série de produits publicitaires tels que les enchères en temps réel des annonceurs tiers.",
+            "retention_period": "3 mois",
+            "data_controller": "Meta Platforms, Inc.",
+            "privacy_rights_portals": "https://www.facebook.com/privacy/explanation",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_ga",
+            "platform": "Google",
+            "category": "Analytics",
+            "data_key": "_ga",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé par Google Analytics pour distinguer les utilisateurs.",
+            "retention_period": "2 ans",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_ga_CQE6ECN0VQ",
+            "platform": "Google",
+            "category": "Analytics",
+            "data_key": "_ga_CQE6ECN0VQ",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé par Google Analytics pour conserver l'état de la session.",
+            "retention_period": "2 ans",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_ga_F5T7JZBS1X",
+            "platform": "Google",
+            "category": "Analytics",
+            "data_key": "_ga_F5T7JZBS1X",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé par Google Analytics pour conserver l'état de la session.",
+            "retention_period": "2 ans",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_gcl_au",
+            "platform": "Google",
+            "category": "Marketing",
+            "data_key": "_gcl_au",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé par Google AdSense pour expérimenter l'efficacité de la publicité.",
+            "retention_period": "3 mois",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "_gid",
+            "platform": "Google",
+            "category": "Analytics",
+            "data_key": "_gid",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour distinguer les utilisateurs par Google Analytics.",
+            "retention_period": "1 jour",
+            "data_controller": "Google LLC",
+            "privacy_rights_portals": "https://policies.google.com/privacy",
+            "wildcard_match": 0
+        },
+        {
+            "id": "tk_ai",
+            "platform": "Automattic",
+            "category": "Analytics",
+            "data_key": "tk_ai",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour stocker un identifiant utilisateur unique par l'outil d'analyse Jetpack.",
+            "retention_period": "5 ans",
+            "data_controller": "Automattic Inc.",
+            "privacy_rights_portals": "https://automattic.com/privacy/",
+            "wildcard_match": 0
+        },
+        {
+            "id": "wfwaf-authcookie-*",
+            "platform": "La Table d'Ogre",
+            "category": "Functional",
+            "data_key": "wfwaf-authcookie-*",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour l'authentification WordPress.",
+            "retention_period": "1 jour",
+            "data_controller": "La Table d'Ogre",
+            "privacy_rights_portals": "https://www.latabledogre.com/privacy-rights",
+            "wildcard_match": 1
+        },
+        {
+            "id": "wordpress_logged_in_*",
+            "platform": "La Table d'Ogre",
+            "category": "Functional",
+            "data_key": "wordpress_logged_in_*",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour l'authentification WordPress.",
+            "retention_period": "2 semaines",
+            "data_controller": "La Table d'Ogre",
+            "privacy_rights_portals": "https://www.latabledogre.com/privacy-rights",
+            "wildcard_match": 1
+        },
+        {
+            "id": "wordpress_sec_*",
+            "platform": "La Table d'Ogre",
+            "category": "Functional",
+            "data_key": "wordpress_sec_*",
+            "domain": "https://www.latabledogre.com/wp-admin",
+            "description": "Cookie utilisé pour la sécurité WordPress.",
+            "retention_period": "2 semaines",
+            "data_controller": "La Table d'Ogre",
+            "privacy_rights_portals": "https://www.latabledogre.com/privacy-rights",
+            "wildcard_match": 1
+        },
+        {
+            "id": "wp-settings-*",
+            "platform": "La Table d'Ogre",
+            "category": "Functional",
+            "data_key": "wp-settings-*",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour conserver les paramètres de configuration de l'utilisateur sur WordPress.",
+            "retention_period": "1 an",
+            "data_controller": "La Table d'Ogre",
+            "privacy_rights_portals": "https://www.latabledogre.com/privacy-rights",
+            "wildcard_match": 1
+        },
+        {
+            "id": "wp-settings-time-*",
+            "platform": "La Table d'Ogre",
+            "category": "Functional",
+            "data_key": "wp-settings-time-*",
+            "domain": "https://www.latabledogre.com/",
+            "description": "Cookie utilisé pour conserver l'heure à laquelle wp-settings-[UID] a été défini.",
+            "retention_period": "1 an",
+            "data_controller": "La Table d'Ogre",
+            "privacy_rights_portals": "https://www.latabledogre.com/privacy-rights",
+            "wildcard_match": 1
+        },
+        {
+        "id": "_fbc",
         "platform": "Facebook",
         "category": "Marketing",
         "data_key": "_fbc",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door Facebook om een reeks advertentieproducten te leveren zoals realtime bieden van derden adverteerders.",
-        "retention_period": "3 maanden",
-        "data_controller": "Facebook",
-        "privacy_rights_portals": "https://www.facebook.com/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "ga",
-        "platform": "Google",
-        "category": "Analytics",
-        "data_key": "_ga *",
-        "domain": "https://www.allaz.nl",
-        "description": "De primaire cookie die door Google Analytics wordt gebruikt om één bezoeker van een ander te onderscheiden.",
-        "retention_period": "1 maand",
-        "data_controller": "Google",
-        "privacy_rights_portals": "https://policies.google.com/privacy?hl=nl",
-        "wildcard_match": 0
-    },
-    {
-        "id": "gcl-au",
-        "platform": "Google",
-        "category": "Marketing",
-        "data_key": "_gcl_au",
-        "domain": "https://www.allaz.nl",
-        "description": "Om conversies op te slaan en bij te houden.",
-        "retention_period": "3 maanden",
-        "data_controller": "Google",
-        "privacy_rights_portals": "https://policies.google.com/privacy?hl=nl",
-        "wildcard_match": 0
-    },
-    {
-        "id": "ga",
-        "platform": "Google",
-        "category": "Analytics",
-        "data_key": "_ga_*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om paginaweergaven op te slaan en te tellen.",
-        "retention_period": "1 jaar",
-        "data_controller": "Google",
-        "privacy_rights_portals": "https://policies.google.com/privacy?hl=nl",
-        "wildcard_match": 0
-    },
-    {
-        "id": "ga",
-        "platform": "Google",
-        "category": "Analytics",
-        "data_key": "_gid*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om paginaweergaven op te slaan en te tellen.",
-        "retention_period": "1 dag",
-        "data_controller": "Google",
-        "privacy_rights_portals": "https://policies.google.com/privacy?hl=nl",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wordpress-logged-in",
-        "platform": "WordPress",
-        "category": "Functioneel",
-        "data_key": "wordpress_logged_in_*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om ingelogde gebruikers op te slaan.",
-        "retention_period": "1 maand",
-        "data_controller": "WordPress",
-        "privacy_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wordpress-sec",
-        "platform": "WordPress",
-        "category": "Functioneel",
-        "data_key": "wordpress_sec_*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om bescherming te bieden tegen hackers, accountgegevens op te slaan.",
-        "retention_period": "15 dagen",
-        "data_controller": "WordPress",
-        "privacy_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wordpress-test-cookie",
-        "platform": "WordPress",
-        "category": "Functioneel",
-        "data_key": "wordpress_test_cookie",
-        "domain": "https://www.allaz.nl",
-        "description": "Om bescherming te bieden tegen hackers, accountgegevens op te slaan.",
-        "retention_period": "Sessie",
-        "data_controller": "WordPress",
-        "privacy_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wp-settings",
-        "platform": "WordPress",
-        "category": "Functioneel",
-        "data_key": "wp-settings-*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om gebruikersvoorkeuren op te slaan.",
-        "retention_period": "Permanent",
-        "data_controller": "WordPress",
-        "privacy_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "wp-settings",
-        "platform": "WordPress",
-        "category": "Functioneel",
-        "data_key": "wp-settings-*",
-        "domain": "https://www.allaz.nl",
-        "description": "Om gebruikersvoorkeuren op te slaan.",
-        "retention_period": "1 jaar",
-        "data_controller": "WordPress",
-        "privacy_rights_portals": "https://wordpress.org/about/privacy/",
-        "wildcard_match": 0
-    },
-    {
-        "id": "MUID",
-        "platform": "Microsoft Clarity",
-        "category": "Marketing",
-        "data_key": "MUID",
-        "domain": "https://www.allaz.nl",
-        "description": "Om bezoeken over websites op te slaan en bij te houden.",
-        "retention_period": "1 jaar",
-        "data_controller": "Microsoft Clarity",
-        "privacy_rights_portals": "https://privacy.microsoft.com/nl-nl/privacystatement",
-        "wildcard_match": 0
-    },
-    {
-        "id": "clck",
-        "platform": "Microsoft Clarity",
-        "category": "Marketing",
-        "data_key": "_clck",
-        "domain": "https://www.allaz.nl",
-        "description": "Om een unieke gebruikers-ID op te slaan.",
-        "retention_period": "1 jaar",
-        "data_controller": "Microsoft Clarity",
-        "privacy_rights_portals": "https://privacy.microsoft.com/nl-nl/privacystatement",
-        "wildcard_match": 0
-    },
-    {
-        "id": "clsk",
-        "platform": "Microsoft Clarity",
-        "category": "Statistieken",
-        "data_key": "_clsk",
-        "domain": "https://www.allaz.nl",
-        "description": "Om paginaweergaven door een gebruiker op te slaan en te combineren in een enkele sessieregistratie.",
-        "retention_period": "1 dag",
-        "data_controller": "Microsoft Clarity",
-        "privacy_rights_portals": "https://privacy.microsoft.com/nl-nl/privacystatement",
-        "wildcard_match": 0
-    },
-    {
-        "id": "pin_unauth",
-        "platform": "Pinterest",
-        "category": "Marketing",
-        "data_key": "_pin_unauth",
-        "domain": "https://www.allaz.nl",
-        "description": "Om de gebruikersgeschiedenis op te slaan.",
-        "retention_period": "1 dag",
-        "data_controller": "Pinterest",
-        "privacy_rights_portals": "https://policy.pinterest.com/nl/privacy-policy",
-        "wildcard_match": 0
-    },
-    {
-        "id": "pin_unauth",
-        "platform": "Pinterest",
-        "category": "Marketing",
-        "data_key": "_pin_unauth",
-        "domain": "https://www.allaz.nl",
-        "description": "Om de gebruikersgeschiedenis op te slaan.",
-        "retention_period": "1 dag",
-        "data_controller": "Pinterest",
-        "privacy_rights_portals": "https://policy.pinterest.com/nl/privacy-policy",
-        "wildcard_match": 0
-    },
-    {
-        "id": "uetsid",
-        "platform": "Bing Ads",
-        "category": "Marketing",
-        "data_key": "__uetsid",
-        "domain": "https://www.allaz.nl",
-        "description": "Om bezoeken over websites op te slaan en bij te houden.",
-        "retention_period": "1 dag",
-        "data_controller": "Bing Ads",
-        "privacy_rights_portals": "https://privacy.microsoft.com/nl/privacystatement",
-        "wildcard_match": 0
-    },
-    {
-        "id": "uetvid",
-        "platform": "Bing Ads",
-        "category": "Marketing",
-        "data_key": "_uetvid",
-        "domain": "https://www.allaz.nl",
-        "description": "Om bezoeken over websites op te slaan en bij te houden.",
-        "retention_period": "13 maanden",
-        "data_controller": "Bing Ads",
-        "privacy_rights_portals": "https://privacy.microsoft.com/nl/privacystatement",
-        "wildcard_match": 0
-    },
-    {
-        "id": "Sbjs_current",
-        "platform": "Sourcebuster JS",
-        "category": "Analytics",
-        "data_key": "Sbjs_current",
-        "domain": "https://www.allaz.nl",
-        "description": "Om browserdetails op te slaan.",
-        "retention_period": "6 maanden",
-        "data_controller": "Sourcebuster JS",
-        "privacy_rights_portals": "#",
-        "wildcard_match": 0
-    },
-    {
-        "id": "sbjs_first",
-        "platform": "Sourcebuster JS",
-        "category": "Analytics",
-        "data_key": "sbjs_first",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door de Simple Behavioral JavaScript-bibliotheek (SBJS) om aanvullende gegevens op te slaan die verband houden met het gedrag of de interacties van de huidige gebruiker op de website.",
-        "retention_period": "6 maanden",
-        "data_controller": "Sourcebuster JS",
-        "privacy_rights_portals": "#",
-        "wildcard_match": 0
-    },
-    {
-        "id": "Sbjs_first_add",
-        "platform": "Sourcebuster JS",
-        "category": "Analytics",
-        "data_key": "Sbjs_first_add",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door de Simple Behavioral JavaScript-bibliotheek (SBJS) om aanvullende gegevens op te slaan die verband houden met het gedrag of de interacties van de huidige gebruiker op de website.",
-        "retention_period": "6 maanden",
-        "data_controller": "Sourcebuster JS",
-        "privacy_rights_portals": "#",
-        "wildcard_match": 0
-    },
-    {
-        "id": "sbjs_migrations",
-        "platform": "Sourcebuster JS",
-        "category": "Analytics",
-        "data_key": "sbjs_migrations",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door de Simple Behavioral JavaScript-bibliotheek (SBJS) om aanvullende gegevens op te slaan die verband houden met het gedrag of de interacties van de huidige gebruiker op de website.",
-        "retention_period": "6 maanden",
-        "data_controller": "Sourcebuster JS",
-        "privacy_rights_portals": "#",
-        "wildcard_match": 0
-    },
-    {
-        "id": "sbjs_udata",
-        "platform": "Sourcebuster JS",
-        "category": "Analytics",
-        "data_key": "sbjs_udata",
-        "domain": "https://www.allaz.nl",
-        "description": "Gebruikt door de Simple Behavioral JavaScript-bibliotheek (SBJS) om aanvullende gegevens op te slaan die verband houden met het gedrag of de interacties van de huidige gebruiker op de website.",
-        "retention_period": "6 maanden",
-        "data_controller": "Sourcebuster JS",
-        "privacy_rights_portals": "#",
-        "wildcard_match": 0
-    },
-    {
-        "id": "tk_ai",
-        "platform": "WooCommerce",
-        "category": "Analytics",
-        "data_key": "tk_ai",
-        "domain": "https://www.allaz.nl",
-        "description": "Om een unieke gebruikers-ID op te slaan.",
-        "retention_period": "sessie",
-        "data_controller": "WooCommerce",
-        "privacy_rights_portals": "#",
+        "domain": "https://www.latabledogre.com/",
+        "description": "Cookie used by Facebook to deliver a series of advertisement products such as real-time bidding from third-party advertisers.",
+        "retention_period": "3 months",
+        "data_controller": "Meta Platforms, Inc.",
+        "privacy_rights_portals": "https://www.facebook.com/privacy/explanation",
         "wildcard_match": 0
     }
 ]
@@ -355,7 +472,7 @@ function fistVisitConsent(){
     
     gtag('consent', 'default', defaultState);
     
-    consentBanner(false, false)
+    consentBanner(false, true)
     
     var inputState = JSON.parse(localStorage.getItem("inputState")) || {};
     
@@ -420,7 +537,7 @@ acceptConsentButton.onclick = ()=>{
     consent: acceptAll,
     })
 
-    consentBanner(false, false)
+    consentBanner(false, true)
 
     localStorage.setItem("mrCookieState", true);
     
@@ -466,7 +583,7 @@ rejectConsentButton.onclick = ()=>{
     consent: deniedAll,
     })
 
-    consentBanner(false, false);
+    consentBanner(false, true);
 
     localStorage.setItem("mrCookieState", true);
     localStorage.setItem("cookieState", JSON.stringify(deniedAll));
@@ -495,7 +612,7 @@ preferenceConsentButton.onclick = ()=>{
 
     navItems[1].style.borderBottom = '2px solid #3771ce';  
     allSections[1].style.display = "block";
-    prefBtn.innerText = "Opslaan"
+    prefBtn.innerText = "Enregistrer"
     });
 
     }else if(detailsSec.style.display == "block"){
@@ -543,7 +660,7 @@ preferenceConsentButton.onclick = ()=>{
         event: "consent_update",
         consent: consetCustom,
     })
-    consentBanner(false, false);
+    consentBanner(false, true);
     
     localStorage.setItem("mrCookieState", true);
     localStorage.setItem("cookieState", JSON.stringify(consetCustom));
@@ -823,9 +940,6 @@ function updateCookies(){
     }else{
     for (const platform in analyticsCookies) {
 
-        console.log(platform)
-        console.log(analyticsCookies[platform][0])
-
         const platformCookies = analyticsCookies[platform].length; // Store the array for the platform
         analyticsElements.push(`
         <div class="cookies">
@@ -1005,17 +1119,16 @@ var prefBtn = document.getElementById("preferenceConsentButton");
 var navItems = document.querySelectorAll(".nav-item");
 var contentSections = document.querySelectorAll(".section-content");
 
-// Event listener for navigation items
 navItems.forEach((item, index) => {
     item.onclick = () => {
-        // Hide all content sections and remove border from all navigation items
+        
         contentSections.forEach((section, idx) => {
             section.style.display = 'none';
             navItems[idx].style.borderBottom = 'none';
         });
 
         if(navItems[index].innerText === "Détails"){
-            prefBtn.innerText = "Sauvegarder"
+            prefBtn.innerText = "Enregistrer"
         }else{
             prefBtn.innerText = "Préférence"
         }
