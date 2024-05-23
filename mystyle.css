@@ -17,10 +17,6 @@
     --fadeInAnime: fadeIn 0.35s linear forwards
 }
 
-body {
-    background: var(--background)
-}
-
 .consent-headlines {
     font-size: clamp(14px, 2vw, 15px) !important;
     font-weight: 600 !important;
