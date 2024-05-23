@@ -3,7 +3,7 @@
 var link=document.createElement("link");
 link.type="text/css";
 link.rel="stylesheet";
-link.href="https://cdn.jsdelivr.net/gh/alifmahmudsclients/latabledogre.com@9738d7379b65de3f8ff369f33c350bf157d1d31e/mystyle.css";
+link.href="https://cdn.jsdelivr.net/gh/alifmahmudsclients/latabledogre.com@d3d56baa9fc2a32c6f7399d8422ad32b8a55cdd0/mystyle.css";
 document.getElementsByTagName("head")[0].appendChild(link);
 
 
