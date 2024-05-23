@@ -29,7 +29,7 @@ consentdiv.innerHTML = `
     <div class="section-container">
       <div class="section-content active-section-content" id="consentSection">
         <p class="consent-descriptions">
-        Nous utilisons des cookies pour personnaliser le contenu et les publicités, pour fournir des fonctionnalités de médias sociaux et pour analyser notre trafic. Nous partageons également des informations sur votre utilisation de notre site avec nos partenaires de médias sociaux, de publicité et d'analyse qui peuvent les combiner avec d'autres informations que vous leur avez fournies ou qu'ils ont collectées à partir de votre utilisation de leurs services.
+          La Table d'Ogre utilise des cookies (et pas seulement en cuisine !), mais n'intègre aucune publicité.
         </p>
       </div>
       <div class="section-content" style="display:none" id="detailsSection">
